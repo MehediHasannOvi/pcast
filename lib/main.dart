@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pcast/Screen/homepage.dart';
 import 'package:pcast/util/Appcolor.dart';
 
-import 'Screen/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: AppColor.backgroundColor,
         backgroundColor: AppColor.backgroundColor,
       ),
-      home: const LoginScreen(),
+      home: const HomePage(),
     );
   }
 }
